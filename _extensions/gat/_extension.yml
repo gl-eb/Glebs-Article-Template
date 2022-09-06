@@ -17,9 +17,8 @@ contributes:
       # fig-width: 6.5
       # fig-height: 4.5
       biblio-config: false # csl includes biblio formatting
-      header-includes: |
-        \usepackage{orcidlink}
-        \definecolor{mypink}{RGB}{219, 48, 122}
+      include-in-header:
+        - "preamble.tex"
       template-partials:
         - "partials/title.tex"
         - "partials/_authors.tex"
