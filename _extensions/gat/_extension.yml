@@ -22,7 +22,6 @@ contributes:
         - right=2.5cm
       # fig-width: 6.5
       # fig-height: 4.5
-      cite-method: biblatex
       biblio-config: false # csl includes biblio formatting
       include-in-header:
         - text: |
