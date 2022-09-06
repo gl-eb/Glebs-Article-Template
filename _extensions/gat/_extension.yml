@@ -11,7 +11,7 @@ contributes:
           echo: false
       csl: https://www.zotero.org/styles/nature
     pdf:
-      documentclass: article
+      documentclass: scrartcl
       fontsize: 10
       colorlinks: true
       urlcolor: ForestGreen
