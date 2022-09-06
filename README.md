@@ -1,6 +1,7 @@
 # Gleb's Article Format (GAT)
 
-**Warning**: This quarto extension is not yet functional.
+**Warning**: This quarto extension is still under active development.
+Using it might lead to unexpected results.
 You can bookmark, star or watch this repository for future updates.
 
 This is a Quarto template that assists you in creating a nicely formatted
