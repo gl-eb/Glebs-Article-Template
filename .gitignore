@@ -1,1 +1,10 @@
+# macOS files
 .DS_Store
+
+# R project files
+.Rproj.user
+
+# Rendered files
+*.html
+*.pdf
+*.tex
