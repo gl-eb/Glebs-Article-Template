@@ -12,13 +12,20 @@ contributes:
       csl: https://www.zotero.org/styles/nature
     pdf:
       documentclass: article
+      fontsize: 10
       colorlinks: true
       urlcolor: ForestGreen
+      geometry:
+        - top=3.0cm
+        - bottom=3.0cm
+        - left=2.5cm
+        - right=2.5cm
       # fig-width: 6.5
       # fig-height: 4.5
       biblio-config: false # csl includes biblio formatting
       include-in-header:
-        - "preamble.tex"
+        - text: |
+            \usepackage{microtype}
       template-partials:
         - "partials/title.tex"
         - "partials/_authors.tex"
