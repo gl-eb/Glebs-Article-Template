@@ -26,6 +26,7 @@ contributes:
       include-in-header:
         - text: |
             \usepackage{microtype}
+            \usepackage{orcidlink}
       template-partials:
         - "partials/title.tex"
         - "partials/_authors.tex"
