@@ -13,7 +13,7 @@ contributes:
     pdf:
       documentclass: article
       colorlinks: true
-      urlcolor: red
+      urlcolor: ForestGreen
       # fig-width: 6.5
       # fig-height: 4.5
       biblio-config: false # csl includes biblio formatting
