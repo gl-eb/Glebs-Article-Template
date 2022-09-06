@@ -1,12 +1,12 @@
-title: Article Format Template
-author: Christophe Dervieux
+title: Gleb's Article Template
+author: Gleb Ebert
 version: 0.1.0
 contributes:
   formats:
     common:
       # define below YAML configuration common to all formats
       filters:
-        # You can include here Lua filters from your extension format 
+        # You can include here Lua filters from your extension format
         - color-text.lua
       shortcodes:
         # You can include here Lua filters defining shortcodes from your extension
@@ -16,7 +16,7 @@ contributes:
           echo: false
     pdf:
       # define default configuration for the pdf version of your format
-      documentclass: aft
+      documentclass: gat
       colorlinks: true
       urlcolor: red
       fig-width: 6.5
@@ -44,4 +44,4 @@ contributes:
       toc: true
       theme: custom.scss
       # Use a CSL file to style (https://www.zotero.org/styles/)
-      csl: https://www.zotero.org/styles/journal-of-institutional-and-theoretical-economics
+      csl: https://www.zotero.org/styles/nature

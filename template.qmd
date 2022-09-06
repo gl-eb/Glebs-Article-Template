@@ -1,25 +1,21 @@
 ---
-title: "Demo aft format to use as template"
+title: "Gleb's Article Template"
 format:
-  aft-pdf:
+  gat-pdf:
     keep-tex: true  
-  aft-html: default
+  gat-html: default
 author:
-  - name: John Doe
+  - name: Gleb Ebert
     affiliations:
-      - name: Dummy org
-        department: Cool Dep
-        address: Somewhere
-        city: Magic city
-        country: best one
-        postal-code: 9999
-      - Demo Journal
-    orcid: 0000-0000-0000-0000
-    email: JD@example.org
-    url: https://example.org/
-  - name: his friend
-    affiliations:
-      - Another Affiliation
+      - name: ETH Zurich
+        department: D-USYS
+        address: "Universitätsstrasse 16"
+        city: Zurich
+        country: Switzerland
+        postal-code: 8092
+    orcid: 0000-0002-7734-3824
+    email: gleb.ebert@env.ethz.ch
+    url: https://www.glebsite.ch/
 abstract: |
   This document is only a demo explaining how to use the template.
 keywords: [template, demo]
@@ -29,9 +25,9 @@ bibliography: bibliography.bib
 
 ## Introduction {#sec-intro}
 
-This is a dummy example only for the purpose to use this repo as a template starter for creating new formats.  For this `article-format-template` we call our dummy article `aft`. 
+This is a dummy example only for the purpose to use this repo as a template starter for creating new formats.  For this `glebs-article-template` we call our dummy article `gat`. 
 
-This quarto extension format supports PDF and HTML outputs. `quarto-journals` is aiming at porting existing {{< latex >}} template from journals to be used with quarto. PDF format is what require the most work to fit the journals guideline, but Quarto offer a nice rendering for HTML output too. This demo format template only use basic HTML format without any customization for now.
+This quarto extension format supports PDF and HTML outputs. `quarto-journals` is aiming at porting existing {{< latex >}} template from journals to be used with quarto. PDF format is what require the most work to fit the journals guideline, but Quarto offer a nice rendering for HTML output too. 
 
 ## About Quarto Extensions formats And Quarto Journals Article
 
