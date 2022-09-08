@@ -23,38 +23,13 @@ reference-section-title: References
 bibliography: bibliography.bib  
 ---
 
-# Demo of some features found in this demo journal template
+# A Paragraph
 
-## Shortcode demo {#sec-shortcode}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Feugiat in ante metus dictum at tempor commodo ullamcorper a. Ut aliquam purus sit amet. Vitae purus faucibus ornare suspendisse sed nisi lacus sed. Pharetra sit amet aliquam id diam maecenas ultricies mi. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo. Et egestas quis ipsum suspendisse ultrices gravida dictum. Tortor dignissim convallis aenean et tortor at risus viverra. Id ornare arcu odio ut sem nulla pharetra diam. Nunc mi ipsum faucibus vitae aliquet. Eget mi proin sed libero enim sed faucibus turpis. Amet nisl purus in mollis. Luctus venenatis lectus magna fringilla urna porttitor rhoncus dolor.
 
-PDF are rendered using {{< latex >}} but it is best if one can use a Markdown syntax for cross format support.
 
-`{{< latex >}}` used in source is a shortcode syntax where the shortcode is included in the extension folder `_extensions`
-
-## Code chunk {#sec-chunks}
-
-This format hide chunks by default as option has been set in `_extension.yml` file.
-
-```{r}
-#| prompt: true
-# Loading some data but this chunk won't be shown.
-data("quine", package = "MASS")
-```
-
-But you can set `echo` option to `true` locally in the chunk
-
-```{r}
-#| echo: true
-m_pois <- glm(Days ~ (Eth + Sex + Age + Lrn)^2, data = quine, family = poisson)
-summary(m_pois)
-```
-
+# Demo of some features found in this document template
 
 ## Using references {.unnumbered}
 
-This is how a reference looks like [@rcoreteamLanguageEnvironmentStatistical2022].
-
-Differences between `gat-html` and `gat-pdf`: 
-
-* For the HTML format, we are using Pandoc citeproc to include the bibliography. Here `reference-section-title` controls the title for the chapter that will be used.
-* For the PDF format, `biblatex` is used by default and the bibliography is included with a title by the LaTeX template. 
+This is how a reference looks like [@rcoreteamLanguageEnvironmentStatistical2022]. `biblatex` is used for citations.
