@@ -4,32 +4,35 @@ version: 0.1.0
 contributes:
   formats:
     common:
-      shortcodes:
-        - shortcodes.lua
-      knitr:
-        opts_chunk:
-          echo: false
       csl: https://www.zotero.org/styles/nature
     pdf:
+      # document formatting
+      include-in-header:
+        - "include-in-header.tex"
+      template-partials:
+        - "partials/title.tex"
+        - "partials/_authors.tex"
       documentclass: scrartcl
       fontsize: 10
-      colorlinks: true
-      urlcolor: ForestGreen
       geometry:
         - top=3.0cm
         - bottom=3.0cm
         - left=2.5cm
         - right=2.5cm
-      # fig-width: 6.5
-      # fig-height: 4.5
+
+      # links and citations
+      colorlinks: true
+      link-citations: true
+      linkcolor: ForestGreen
+      urlcolor: ForestGreen
+      citecolor: ForestGreen
+
+      # bibliography
       biblio-config: false # csl includes biblio formatting
-      include-in-header:
-        - text: |
-            \usepackage{microtype}
-            \usepackage{orcidlink}
-      template-partials:
-        - "partials/title.tex"
-        - "partials/_authors.tex"
+      biblio-title: "References"
+      cite-method: biblatex
+      biblatexoptions:
+        - backend=biber
     html:
       number-sections: true
       toc: true
