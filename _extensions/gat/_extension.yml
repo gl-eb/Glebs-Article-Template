@@ -30,6 +30,6 @@ contributes:
       # bibliography
       biblio-config: false # csl includes biblio formatting
       biblio-title: "References"
-      cite-method: biblatex
-      biblatexoptions:
-        - backend=biber
+      # cite-method: biblatex
+      # biblatexoptions:
+        # - backend=biber
