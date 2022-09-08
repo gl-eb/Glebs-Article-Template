@@ -5,6 +5,4 @@
 .Rproj.user
 
 # Rendered files
-*.html
-*.pdf
-*.tex
+template*
