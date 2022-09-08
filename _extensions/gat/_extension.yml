@@ -33,6 +33,3 @@ contributes:
       cite-method: biblatex
       biblatexoptions:
         - backend=biber
-    html:
-      number-sections: true
-      toc: true
