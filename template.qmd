@@ -32,4 +32,4 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Using references {.unnumbered}
 
-This is how a reference looks like [@rcoreteamLanguageEnvironmentStatistical2022]. `biblatex` is used for citations.
+This is how a reference looks like [@allaire2022]. `biblatex` is used for citations.
