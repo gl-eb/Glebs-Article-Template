@@ -1,0 +1,32 @@
+---
+references:
+- id: allaireQuarto2022
+  abstract: >-
+    Quarto is an open-source scientific and technical publishing system built on
+    Pandoc.
+  accessed:
+    - year: 2022
+      month: 9
+      day: 9
+  author:
+    - family: Allaire
+      given: J.J.
+    - family: Teague
+      given: Charles
+    - family: Xie
+      given: Yihui
+    - family: Dervieux
+      given: Christophe
+  citation-key: allaireQuarto2022
+  DOI: 10.5281/ZENODO.5960047
+  issued:
+    - year: 2022
+      month: 1
+      day: 10
+  license: GNU General Public License v2.0 or later, Open Access
+  publisher: Zenodo
+  source: DOI.org (Datacite)
+  title: Quarto
+  type: software
+  URL: https://zenodo.org/record/5960047
+...
