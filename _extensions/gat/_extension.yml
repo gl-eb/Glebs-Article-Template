@@ -13,7 +13,7 @@ contributes:
         - "partials/title.tex"
         - "partials/_authors.tex"
       documentclass: scrartcl
-      fontsize: 10
+      fontsize: 10pt
       geometry:
         - top=3.0cm
         - bottom=3.0cm
