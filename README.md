@@ -1,9 +1,5 @@
 # Gleb's Article Format (GAT)
 
-**Warning**: This quarto extension is still under active development.
-Using it might lead to unexpected results.
-You can bookmark, star or watch this repository for future updates.
-
 This is a Quarto template that assists you in creating a nicely formatted
 document and is based on
 [Quarto's Article Format Template (AFT)](https://github.com/quarto-journals/article-format-template)
