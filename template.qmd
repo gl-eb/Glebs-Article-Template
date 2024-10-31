@@ -2,7 +2,7 @@
 title: "Gleb's Article Template"
 format:
   gat-pdf:
-    keep-tex: true  
+    keep-tex: true
   gat-html: default
 author:
   - name: Gleb Ebert

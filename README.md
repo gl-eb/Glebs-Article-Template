@@ -10,7 +10,6 @@ document and is based on
 I created it during my PhD at ETH Zurich and use it for any written documents
 that don't require a particular format.
 
-
 ## Creating a New Article
 
 You can use this as a template to create an article using the following command:
@@ -47,5 +46,5 @@ or in your document yaml
 format:
   pdf: default
   gat-pdf:
-    keep-tex: true    
+    keep-tex: true
 ```
