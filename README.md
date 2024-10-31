@@ -33,7 +33,7 @@ quarto install extension gl-eb/glebs-article-format
 
 ## Usage
 
-To use the format, you can use the format names `gat-pdf` and `gat-html`.
+Set the format name to `gat-pdf` to use the template.
 For example:
 
 ```bash
